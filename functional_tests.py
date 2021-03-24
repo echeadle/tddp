@@ -10,7 +10,7 @@ class NewVistorTest(unittest.TestCase):
     def tearDown(self):
         self.browser.quit()
 
-    def test_can_start_a_list_and_retrive it later(self):
+    def test_can_start_a_list_and_retrive_it_later(self):
         # Edit has heard about a cool new online to-do app. She goes
         # to check out it's homepage
         self.browser.get('http://localhost:8000')
